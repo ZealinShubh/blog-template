@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    height: 50px;
+    background-color: red;
+}
+
+.content{
+    height: 50px;
+    background-color: yellow;
+}
+
+.footer{
+    height: 50px;
+    background-color: blueviolet;
+}

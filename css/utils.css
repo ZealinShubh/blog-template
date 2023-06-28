@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Roboto&family=Satisfy&display=swap');
+
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; 
+font-family: 'Satisfy', cursive; */
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Playfair Display', serif;
+    --font3: 'Satisfy', cursive;
+    --font4: 'Roboto', sans-serif;
+}
+
+.max-width-1{
+    max-width: 80%;
+}
+
+.max-width-2{
+    max-width: 60%;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.form-input{
+    padding: 4px 6px;
+    padding-top: 4px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0 15px;
+}
+
+.btn{
+    padding: 2px 9px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font4);
+    cursor: pointer;
+}

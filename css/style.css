@@ -4,16 +4,46 @@
 }
 
 .navigation{
-    height: 50px;
-    background-color: red;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+    display: flex;
+}
+
+.nav-left span{
+    font-size: 35px;
+    font-family: var(--font3);
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    font-size: 15px;
+}
+
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font4);
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 .content{
     height: 50px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .footer{
     height: 50px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }

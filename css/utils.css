@@ -17,6 +17,26 @@
     --font6: 'Inconsolata', monospace;
 }
 
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+.font3{
+    font-family: var(--font3);
+}
+
+.font4{
+    font-family: var(--font4);
+}
+
+.font5{
+    font-family: var(--font5);
+}
+
 .max-width-1{
     max-width: 80%;
 }
@@ -24,6 +44,7 @@
 .max-width-2{
     max-width: 60%;
 }
+
 
 .m-auto{
     margin: auto;

@@ -5,7 +5,7 @@
 
 .navigation{
     margin-top: 15px;
-    height: 80px;
+    /* height: 80px; */
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
@@ -58,7 +58,7 @@
 
 .content{
     display: flex;
-    height: 360px;
+    height: 100%;
     /* background-color: rgb(202, 224, 240); */
     margin-top: 30px;
     position: relative;

@@ -76,6 +76,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 50px;
+    z-index: 1;
 }
 
 .content-left h1{
@@ -96,7 +97,7 @@
 }
 
 .home-articles{
-    background-color: rgba(158, 188, 212, 0.8);
+    background-color: rgb(137, 230, 167, 0.4);
     padding-top: 15px;
     margin-top: 20px;
 }

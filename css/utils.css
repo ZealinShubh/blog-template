@@ -59,6 +59,12 @@
     margin: 0 15px;
 }
 
+.form-box input,textarea{
+    width: 50vw;
+    padding: 10px 5px;
+    margin: 7px;
+}
+
 .btn{
     padding: 2px 9px;
     font-size: 16px;
@@ -71,5 +77,5 @@
 
 .btn:hover{
     color: aliceblue;
-    background: green;
+    background: rgb(72, 126, 214);
 }

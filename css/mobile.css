@@ -38,4 +38,21 @@
     .form-box input, textarea{
         width: 75vw;
     }
+    .row{
+        flex-direction: column;
+    }
+    .blog-article{
+        text-align: center;
+    }
+    .post-img{
+        height: auto;
+    }
+    .adjust-year{
+        position: static;
+        height: auto;
+        padding: 12px 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
 }
